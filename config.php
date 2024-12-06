@@ -4,7 +4,8 @@ $username = "root";
 $password = "";
 $dbname = "ecommerce";
 
-$connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
+
+$connect = mysqli_connect($servername,$username,$password,$dbname);
 try{
     if(!$connect){
         die("connection failed");
