@@ -6,8 +6,9 @@ define('PASSWORD','');
 define('DBNAME','ecommerce');
 
 
-$connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
+
 try{
+    $connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
     if(!$connect){
         die("connection failed");
     }
