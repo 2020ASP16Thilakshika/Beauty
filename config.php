@@ -3,7 +3,7 @@
 define('SERVERNAME','localhost');
 define('USERNAME','root');
 define('PASSWORD','');
-define('DBNAME','Day11');
+define('DBNAME','ecommercs');
 
 //connect with database
 $connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
