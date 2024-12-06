@@ -17,7 +17,7 @@ try{
         $col = mysqli_fetch_fields($result);
         echo "<tr>";
         foreach ($col as $value){
-            echo "<td> $value->name</td>";
+            echo "<td> $value->email</td>";
         }
         echo "</tr>";
         while($row = mysqli_fetch_assoc($result)){
