@@ -1,11 +1,12 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "ecommerce";
+//constant variable
+define('SERVERNAME','localhost');
+define('USERNAME','root');
+define('PASSWORD','');
+define('DBNAME','Day11');
 
-
-$connect = mysqli_connect($servername,$username,$password,$dbname);
+//connect with database
+$connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
 try{
     if(!$connect){
         die("connection failed");
@@ -20,5 +21,6 @@ catch (Exception $e){
 }
 
 echo "<br>";
+//echo "abc<br>";
 
 ?>
