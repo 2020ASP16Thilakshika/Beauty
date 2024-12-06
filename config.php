@@ -2,7 +2,7 @@
 
 define('SERVERNAME','localhost');
 define('USERNAME','root');
-define('PASSWORD','mariadb');
+define('PASSWORD','');
 define('DBNAME','ecommercs');
 
 
