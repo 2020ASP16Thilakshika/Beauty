@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Start session and redirect
         session_start();
         $_SESSION['user'] = $email;
-        header("Location: index.php");
+        header("Location: account.php");
     } else {
         echo "<script>alert('Invalid email or password');</script>";
     }
