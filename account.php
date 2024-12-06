@@ -9,12 +9,12 @@
 	<header>
 		<input type="checkbox" name="" id="toggler">
 		<label for="toggler" class="fas fa-bars"></label>
-		<a href="index.html" class="logo">Beauty<span>Bliss</span></a>
+		<a href="index.php" class="logo">Beauty<span>Bliss</span></a>
 		<nav class="navbar">
-			<a href="index.html">home</a>
-			<a href="products.html">products</a>
-			<a href="purchases.html">purchases</a>
-			<a href="account.html">account</a>
+			<a href="index.php">home</a>
+			<a href="products.php">products</a>
+			<a href="purchases.php">purchases</a>
+			<a href="account.php">account</a>
        </nav>
        
 	</header>
