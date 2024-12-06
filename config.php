@@ -3,7 +3,7 @@
 define('SERVERNAME','localhost');
 define('USERNAME','root');
 define('PASSWORD','');
-define('DBNAME','ecommercs');
+define('DBNAME','ecommerce');
 
 
 $connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
