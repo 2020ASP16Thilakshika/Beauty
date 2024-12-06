@@ -4,11 +4,20 @@ $username = "root";
 $password = "";
 $dbname = "ecommerce";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+$connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
+try{
+    if(!$connect){
+        die("connection failed");
+    }
+    else{
+        echo "connected successfully";
+    }
 }
+catch (Exception $e){
+    die($e->getMessage());
+
+}
+
+echo "<br>";
+
 ?>
