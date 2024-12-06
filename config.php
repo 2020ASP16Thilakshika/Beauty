@@ -1,11 +1,11 @@
 <?php
-//constant variable
+
 define('SERVERNAME','localhost');
 define('USERNAME','root');
 define('PASSWORD','');
 define('DBNAME','ecommercs');
 
-//connect with database
+
 $connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
 try{
     if(!$connect){
@@ -21,6 +21,6 @@ catch (Exception $e){
 }
 
 echo "<br>";
-//echo "abc<br>";
+
 
 ?>
